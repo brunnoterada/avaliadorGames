@@ -1,0 +1,16 @@
+[
+        {
+            "id":1,
+            "nome": "League of legends",
+            "avaliacao": "5",
+            "descricao":"League of Legends (abreviado como LoL e comumente referido como League) é um jogo eletrônico do gênero multiplayer online battle arena (MOBA) desenvolvido e publicado pela Riot Games. Foi lançado em outubro de 2009 para Microsoft Windows e em março de 2013 para macOS. Inspirado em Defense of the Ancients (DotA), uma modificação de Warcraft III, os fundadores da Riot buscaram desenvolver um jogo autônomo do mesmo gênero. Desde o seu lançamento, o título é gratuito para jogar e monetizado por meio de personalização de personagens, a qual é obtenível através de uma moeda virtual comprável com dinheiro real."
+    
+        },
+        {
+            "id":2,
+            "nome": "Valorant",
+            "avaliacao": "5",
+            "descricao":"Valorant é um jogo eletrônico multijogador gratuito para jogar de tiro em primeira pessoa desenvolvido e publicado pela Riot Games. É o primeiro jogo do gênero desenvolvido pela empresa,[2] sendo anunciado pela primeira vez com o codinome Project A em outubro de 2019, em um evento de comemoração de 10 anos de League of Legends.[3] Foi lançado em 2 de junho de 2020 para Microsoft Windows."
+        }
+
+    ]
