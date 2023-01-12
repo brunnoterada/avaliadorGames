@@ -16,6 +16,10 @@ function App() {
             {
               record.nome
             }
+            <br/>
+            {
+              record.descricao
+            }
           </div>
         )
       })
