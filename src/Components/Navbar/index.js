@@ -4,10 +4,10 @@ const Navbar =()=>{
             <a href="/" className="site-title">Site name</a>
             <ul>
                 <li>
-                    <a href="/Sobre">Sobre</a>
-                    </li>
-                    <li>
-                    <a href="/List">Lista</a>
+                    <a href="/Sobre">cadu é gordo?</a>
+                </li>
+                <li>
+                    <a href="/List">Gordão</a>
                 </li>
             </ul>
         </nav>
