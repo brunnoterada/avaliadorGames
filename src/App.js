@@ -3,6 +3,8 @@ import Home from './Pages/Home';
 import React from 'react';
 import Lista from './Pages/Lista';
 import Sobre from './Pages/Sobre';
+import {BrowserRouter} from "react-router-dom"
+
 
 
 function App() {
@@ -23,6 +25,7 @@ function App() {
 
   return (
   <div>
+    
     <Home/>
     {Component}
   </div>
