@@ -8,9 +8,7 @@ function App() {
   return (
 
     <div>
-    <React.Fragment>
-      <Navbar/>
-    </React.Fragment>
+      <p> Home</p>
   </div>
   );
 }

@@ -1,36 +1,23 @@
-import './App.css';
-import Home from './Pages/Home';
-import React from 'react';
-import Lista from './Pages/Lista';
-import Sobre from './Pages/Sobre';
-import {BrowserRouter} from "react-router-dom"
+import Home from "./Pages/Home"
+import Lista from "./Pages/Lista"
+import Sobre from "./Pages/Sobre"
 
-
+import { Route, Routes } from "react-router-dom"
+import Navbar from "./Components/Navbar"
 
 function App() {
-  console.log(window.location)
-  let Component
-  switch(window.location.pathname){
-    case"/":
-    Component = App
-    break
-    case"/Lista":
-    Component = <Lista/>
-    break
-    case"/Sobre":
-    Component = <Sobre/>
-    break
-  }
-
-
   return (
-  <div>
-    
-    <Home/>
-    {Component}
-  </div>
-    
-  );
+    <>
+      <Navbar />
+      <div className="container">
+      <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/Sobre" element={<Sobre />} />
+          <Route path="/Lista" element={<Lista />} />
+        </Routes>
+      </div>
+    </>
+  )
 }
 
-export default App;
+export default App
