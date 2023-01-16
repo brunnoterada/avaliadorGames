@@ -12,6 +12,7 @@ function Lista() {
       Jogos.map( record=>{
         return(
           <div className='box'>
+            <br/>
             {
               record.nome
             }
