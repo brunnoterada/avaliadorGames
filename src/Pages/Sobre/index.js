@@ -14,12 +14,16 @@ const Sobre =()=>{
                     </li>
                 </ul>
             </div>
+            <div className="Banner">
+
+            </div>
             <div className="box-texto">
                 <p>Trabalho com Tecnologia desde 2018. </p>
                     <p>Tive o prazer de me formar como Técnico em Informática no ano de 2020, foi apenas o início de um grande sonho. </p>
                    <p> Hoje estou finalizando uma graduação da área de informática e minha paixão por tecnologia e novos desafios só aumentam.
                 </p>
             </div>
+            
         </div>
     )
 
